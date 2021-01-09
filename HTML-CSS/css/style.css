@@ -1,0 +1,794 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* start header */
+
+#start-of-page {
+	max-width: 1350px;
+    width: 100%;
+}
+
+/* start upper part of header */
+
+#upper-section-upper-case {
+	height: 120px;
+    background-color: #eeeff1;
+    width: 100%;
+    max-width: 1350px;
+}
+
+#upper-section {
+	display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    height: 120px;
+    align-items: center;
+}
+
+#upper-section nav ul {
+	display: flex;
+}
+
+
+#upper-section nav ul li {
+	list-style-type: none;
+}
+
+#upper-section nav ul li a {
+	text-decoration-line: none;
+	color: #32353e;
+	border-style: none;
+    border-width: thin;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 12px;
+    position: relative;
+  	animation: navanimae 8s none;
+}
+
+@keyframes navanimae {
+  from {top: -200px;}
+  to {top: 0px;}  
+
+  } 
+
+
+
+
+#left-side-of-upper-section {
+	text-align: center;
+}
+
+#left-side-of-upper-section p:first-child {
+	font-size: 33px;
+	color: #32353e;
+    font-weight: 500;
+}
+
+
+#left-side-of-upper-section p:nth-child(2) {
+	    color: #df4b2f;
+}
+
+#left-side-of-upper-section p {
+	position: relative;
+  	animation: animemove 8s none;
+}
+
+@keyframes animemove {
+  from {left: -300px;}
+  to {left: 0px;}  
+} 
+
+
+/* end upper part of header */
+
+/* start lower part of header */
+
+#text-lower-section-header {
+	text-align: center;
+	box-sizing: content-box;
+    margin-bottom: 80px;
+}
+
+#text-lower-section-header h2 {
+	font-weight: 300;
+    font-size: 50px;
+}
+
+#lower-section, #lower-section > img {
+	max-width: 1350px;
+	width: 100%;
+}
+
+#lower-section {
+	position: relative;
+}
+
+#content-lower-sectio-header {
+	position: absolute;
+    bottom: 109px;
+    left: 267px;
+    color: #fff;
+}
+
+#article-lower-header {
+	max-width: 800px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#article-lower-header aside {
+	width:32%;
+}
+
+#article-lower-header aside img {
+	width: 35%;
+}
+
+#article-lower-header aside h3 {
+	padding: 15px 0;
+}
+
+#article-lower-header aside p {
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#content-lower-sectio-header a {
+	text-align: center;
+    width: 100px;
+    display: block;
+    margin: auto;
+    box-sizing: content-box;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: -12px;
+    text-decoration-line: none;
+    font-size: 12px;
+    color: #32353e;
+}
+
+/* end lower part od header */
+/* end header */
+
+
+
+/* start main */
+main {
+	max-width: 1350px;
+	width: 100%;
+}
+
+/* start our news */
+
+
+#our-news {
+	max-width: 1350px;
+	width: 100%;
+	background-color: #eeeff1;
+}
+
+#width-div {
+	max-width: 850px;
+	width: 100%;
+	margin: auto;
+}
+
+#text-head {
+	text-align: center;
+	padding: 50px;
+}
+
+#text-head h2 {
+	color: #32353e;
+}
+
+#articles-div-img-text {
+	display: flex;
+    justify-content: space-between;
+}
+
+#articles-div-img-text article {
+	width: 32%;
+	line-height: 1.8;
+}
+
+#articles-div-img-text article img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+
+#articles-div-img-text article h3 {
+	text-align: center;
+	color: #32353e;
+}
+
+
+#articles-div-img-text article p {
+	text-align: center;
+	font-size: 12px;
+	color: #32353e;
+}
+
+#articles-div-img-text article div {
+	text-align: center;
+	margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#articles-div-img-text article div a {
+	color: #32353e;
+	background-color: #fff;
+    border-radius: 30px;
+    padding: 12px 35px;
+    font-size: 12px;
+    text-decoration-line: none;
+}
+
+/* end our news */
+
+/* start newsletter */
+
+#newsletter {
+	max-width: 1350px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/burger.jpg');
+	/* ovaj kod sam nasao na netu,ako mogu dobiti neko objasnjenje za njega,ima dve rgba vrednosti,
+	a nije prvi put da sam se susreo sa ovakao necim,ovde mi je trebao kod za potamljivanje background
+	 slike.*/
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+#new-second {
+	max-width: 450px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+#text-new {
+	text-align: center;
+    line-height: 1.8;
+}
+
+#text-new h2 {
+	font-weight: 400;
+	color: #fff;
+}
+
+#text-new p {
+	font-size: 12px;
+	color: #fff;
+}
+
+#form-input-border {
+	text-align: center;
+	margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+input {
+	height: 40px;
+    width: 65%;
+    padding: 6px;
+    border-radius: 30px;
+    position: relative;
+    left: 20px;
+    background-color: #ffffff33;
+    border-width: thin;
+    z-index: 1;
+    outline: none;
+    padding-left: 20px;
+    color: #32353e;
+        border-color: #2f4f4f;
+    border-top-color: currentColor;
+    border-left-color: currentColor;
+
+}
+
+input::placeholder {
+	color: #fff;
+	text-shadow: 0px 0px 20px #fff8f8;
+}
+
+button {
+	height: 40px;
+    width: 34%;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    color: #32353e;
+    border-width: thin;
+    z-index: 5;
+}
+/* end newsletter */
+
+/* start third part of main content */
+
+#third-part-of-main-content {
+	max-width: 1350px;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+
+#main-part-third {
+	max-width: 850px;
+	width: 100%;
+	margin: auto;
+}
+
+.clearfix:after, .clearfix:before {
+	content: " ";
+	clear: both;
+}
+
+#up-part-of-third, #lower-part-of-third {
+	line-height: 2;
+	padding: 60px 0px;
+}
+
+#up-part-of-third div {
+	float: right;
+	padding-right: 30px;
+}
+
+#up-part-of-third div img, #lower-part-of-third div img {
+	width: 270px;
+	padding-top: 20px;
+}
+
+
+#up-part-of-third h2, #lower-part-of-third h2 {
+	color: #32353e;
+}
+
+#up-part-of-third p, #lower-part-of-third p {
+	font-size: 12px;
+    color: #32353e;
+    max-width: 426px;
+    width: 100%;
+}
+
+#up-part-of-third a {
+	background-color: #df4b2f;
+	text-decoration-line: none;
+	border-radius: 30px;
+    box-sizing: content-box;
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+#lower-part-of-third aside {
+	float: right;
+}
+
+#lower-part-of-third div {
+	padding-left: 30px;
+}
+
+#lower-part-of-third div img {
+	float: left;
+}
+
+#lower-part-of-third:before, #lower-part-of-third:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+#lower-part-of-third aside a {
+	background-color: #4b4d73;
+	text-decoration-line: none;
+	border-radius: 30px;
+    box-sizing: content-box;
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+/* end third part of main content */
+/* end main */
+
+/* start footer */
+footer {
+	max-width: 1350px;
+	width: 100%;
+	margin: auto;
+}
+
+/* start upper footer */
+
+#upper-footer {
+	background-color: #d75e0f;
+	padding: 70px 0px;
+}
+
+#width-text {
+	max-width: 700px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#width-text article {
+	line-height: 2;
+	color: #fff;
+}
+
+/* end upper footer */
+
+/* start lower footer */
+
+#lower-footer {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/burger.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#lower-footer article {
+	max-width: 550px;
+    width: 100%;
+    margin: auto;
+    padding-top: 56px;
+    padding-bottom: 170px;
+}
+
+#lower-footer article p {
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	font-weight: 100;
+}
+
+#lower-footer article p span {
+	font-weight: bold;
+}
+
+/* end lower footer */
+/* end footer */
+
+
+/* start responsive */
+
+@media all and (max-width: 1300px ) {
+
+	#content-lower-sectio-header {
+		bottom: 100px;
+    	left: 253px;
+	}
+}
+
+@media all and (max-width: 1200px ) {
+
+	#content-lower-sectio-header {
+		bottom: 55px;
+    	left: 245px;
+	}
+
+	#article-lower-header {
+		max-width: 700px;
+	}
+}
+
+@media all and (max-width: 1100px ) {
+
+	#content-lower-sectio-header {
+		bottom: 40px;
+    	left: 215px;
+	}
+
+	#article-lower-header {
+		max-width: 650px;
+	}
+
+	#upper-section {
+		padding: 0px 10px;
+	}
+}
+
+@media all and (min-width: 1001px ) {
+
+	#third-part-of-main-content img:hover {
+	border-radius: 50%;
+	}
+
+	#news1 img:hover {
+	border-radius: 70px 10px;
+	}
+
+	#news2 img:hover {
+		border-radius: 20%;
+	}
+
+	#news3 img:hover {
+		border-radius: 10px 70px;
+	}
+
+	#upper-section nav ul li a:hover, #content-lower-sectio-header a:hover, 
+		#articles-div-img-text article div a:hover, button:hover {
+
+    	background-color: #df4b2f;
+    	outline: none;
+    	color: #fff;
+	}
+
+	#up-part-of-third a:hover {
+		background-color: #4b4d73;
+	}
+
+	#lower-part-of-third aside a:hover {
+		background-color: #df4b2f;
+	}
+}
+
+@media all and (max-width: 1000px ) {
+
+	#text-lower-section-header h2 {
+		font-size: 45px;
+	}
+
+	#text-lower-section-header h3 {
+		font-size: 16px;
+	}
+
+	#article-lower-header {
+    max-width: 600px;
+	}
+
+	#article-lower-header aside h3 {
+		font-size: 16px;
+	}
+
+	#article-lower-header aside p {
+		font-size: 10px;
+	}
+
+	#article-lower-header aside {
+		padding: 0px 10px;
+	}
+
+	#content-lower-sectio-header {
+		left: 180px;
+	}
+
+	button {
+		background-color: #df4b2f;
+		color: #fff;
+	}
+}
+
+@media all and (max-width: 900px ) {
+
+	#content-lower-sectio-header {
+		left: 140px;
+	}
+
+	#width-div {
+		padding: 0px 10px;
+	}
+
+	#upper-section nav ul li a {
+		font-size: 14px;
+	}
+
+	#main-part-third {
+		padding: 0px 10px;
+	}
+}
+
+@media all and (max-width: 800px ) {
+
+	#content-lower-sectio-header {
+    left: 90px;
+	}
+
+	#upper-section {
+		flex-direction: column;
+		padding-bottom: 15px;
+	}
+
+	#left-side-of-upper-section {
+		padding-top: 5px;
+	}
+
+	#up-part-of-third div img {
+		padding-top: 0px;
+	}
+
+	#lower-part-of-third div {
+    padding-left: 0px;
+	}
+
+	#up-part-of-third, #lower-part-of-third {
+		text-align: center;
+	}
+
+	#up-part-of-third div {
+		float: none;
+		padding-right: 0px;
+	}
+
+	#lower-part-of-third div img, #lower-part-of-third aside {
+		float: none;
+	}
+
+	#up-part-of-third p, #lower-part-of-third p {
+		margin: auto;
+	}
+
+	#upper-footer {
+		padding: 70px 10px;
+	}
+}
+
+@media all and (max-width: 750px ) {
+
+	#content-lower-sectio-header {
+		position: static;
+		color: #663399;
+		background-color: #eeeff1;
+		border-bottom-style: groove;
+		padding-bottom: 55px;
+		padding-top: 50px;
+	}
+
+	#articles-div-img-text {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#news2, #news3 {
+		border-top-style: groove;
+    	padding-top: 15px;
+    	border-width: thin;
+    	border-color: rebeccapurple;
+	}
+
+	#articles-div-img-text article {
+		width: 60%;
+	}
+
+	#article-lower-header aside img {
+		width: 50%;
+	}
+	
+}
+
+@media all and (max-width: 613px ) {
+	#upper-section nav ul li a {
+		border-style: none;
+    	border-width: none;
+    	padding: 10px 10px;
+    	border-radius: 0px;
+	}
+}
+
+@media all and (max-width: 600px ) {
+
+	#upper-section nav ul li a {
+		border-style: none; 
+	    border-width: none;
+	    padding: 10px 10px;
+	    border-radius: 0px;
+	}
+}
+
+
+@media all and (max-width: 502px ) {
+
+	#text-lower-section-header h2 {
+    font-size: 35px;
+	}
+
+	#text-lower-section-header p {
+		font-size: 14px;
+	}
+
+	#upper-section nav ul li a {
+		font-size: 14px;
+	}
+
+	#articles-div-img-text article div a {
+		padding: 8px 16px;
+	}
+
+	input {
+		width: 55%;
+		height: 35px;
+	}
+
+	button {
+		width: 25%;
+		height: 35px;
+	}
+
+	#text-new {
+		padding: 0px 12px;
+	}
+
+	#text-new h2 {
+		font-size: 20px;
+	}
+
+	#text-new p {
+		font-size: 11px;
+	}
+
+	#width-text article {
+		padding: 0px 8px;
+	}
+
+	#upper-footer article p {
+		font-size: 14px;
+	}
+
+	#lower-footer article p {
+		padding-top: 10px;
+	}
+
+	
+}
+
+
+@media all and (max-width: 445px ) {
+	#upper-section nav ul li a {
+		font-size: 12px;
+		padding: 0px 8px;
+	}
+}
+
+@media all and (max-width: 380px ) {
+	#upper-section nav ul li a {
+		font-size: 11px;
+		padding: 0px 8px;
+	}
+}
+
+@media all and (max-width: 355px ) {
+	#left-side-of-upper-section p:first-child {
+		font-size: 28px;
+	}
+
+	#left-side-of-upper-section p:nth-child(2) {
+		font-size: 14px;
+	}
+
+	#upper-section nav ul li a {
+		font-size: 11px;
+    	padding: 0px 4px;
+	}
+}
+
+/* end responsive */
